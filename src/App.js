@@ -10,18 +10,18 @@ function App() {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="/resume">Resume</a>
+                <a href="/aboutme">About Me</a>
+                <a href="/projects">Projects</a>
+                <a href="/contact">Contact</a>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+            <a href="/resume">Resume</a>
+                <a href="/aboutme">About Me</a>
+                <a href="/projects">Projects</a>
+                <a href="/contact">Contact</a>
             </Navigation>
         </Drawer>
         <Content>
