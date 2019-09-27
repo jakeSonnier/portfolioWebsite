@@ -8,7 +8,7 @@ function App() {
 /* Uses a transparent header that draws on top of the layout's background */
 <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-color" title="Title" scroll>
             <Navigation>
                 <a href="/resume">Resume</a>
                 <a href="/aboutme">About Me</a>
