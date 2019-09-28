@@ -1,13 +1,18 @@
 .header-color {
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */              
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c3d4c3, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c3d4c3, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
 }
 
 .landing-grid {
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c3d4c3, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c3d4c3, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
    
     text-align: center;
     position: fixed;
@@ -22,21 +27,32 @@
 }
 
 .resume-grid {
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */              
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c3d4c3, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c3d4c3, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+              
 }
 
 .aboutme-grid {
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */              
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c3d4c3, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c3d4c3, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+             
 }
 
-.contact-grid {
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */              
+.contact-grid {   
+   
+    
+     
+    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .avatar-img {
@@ -46,10 +62,10 @@
 
 .banner-text {
     background-color: black;
-    opacity: .8;
-    width: 75%;
+    opacity: .5;
+    width: 15%;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .banner-text h1 {
@@ -59,7 +75,7 @@
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
+    border-top: 5px white;
     width: 50%;
     margin: auto;
 }
@@ -81,4 +97,11 @@
     color: white;
     font-size: 5em;
     padding: 8px;
+}
+
+.mdl-textfield__label:after {
+    background-color: white !important;
+    color: white !important;
+    font-weight: bold;
+    opacity: .9;
 }

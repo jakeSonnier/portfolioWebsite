@@ -32,8 +32,8 @@ function App() {
         <Footer size="mini">
             <FooterSection type="left" logo="Jake Sonnier">
                 <FooterLinkList>
-                    <a href="http://google.com">Help</a>
-                    <a href="http://google.com">Privacy & Terms</a>
+                    <a href="http://google.com">(337)-517-2284</a>
+                    <a href="http://google.com">jcrsonnier@gmail.com</a>
                 </FooterLinkList>
             </FooterSection>
         </Footer>
