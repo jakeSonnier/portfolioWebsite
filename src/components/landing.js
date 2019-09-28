@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, } from 'react-mdl';
 
 class Landing extends Component {
     render() {
@@ -16,7 +16,7 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1>Jake Sonnier</h1>
 
-                            <hr/>
+                            
 
                             <p>Computer Science Junior</p>
 
@@ -36,7 +36,7 @@ class Landing extends Component {
                         </div>
                     </Cell>
                 </Grid>
-            </div>
+            </div>        
         )
     }
 }
