@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
-//
+
 class About extends Component {
     render() {
         return(
-        <div><h1>About Page</h1></div>
+            <Grid className="aboutme-grid">
+                <Cell col={12}>
+                    <div><h1>About Me Page</h1></div>
+                </Cell>
+            </Grid>
         )
     }
 }

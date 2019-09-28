@@ -14,11 +14,11 @@ class Landing extends Component {
                         />
 
                         <div className="banner-text">
-                            <h1>Computer Science Student</h1>
+                            <h1>Jake Sonnier</h1>
 
                             <hr/>
 
-                            <p>INSERT SOME STUFF HERE</p>
+                            <p>Computer Science Junior</p>
 
                             <div className="social-links">
                                 
