@@ -16,7 +16,7 @@ function App() {
                 <a href="/contact">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title={<a href="/">Jake</a>}>
             <Navigation>
                 <a href="/resume">Resume</a>
                 <a href="/aboutme">About Me</a>
