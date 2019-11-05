@@ -1,20 +1,59 @@
+body {
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Header */
 .header-color {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
 }
+
+
+/* Hamburger Nav */
+.material-icons {
+    visibility: hidden;
+}
+
+/* Title */
+#title a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Nav Title */
+#navTitle a {
+    text-decoration: none;
+    color: gray;
+}
+
 
 
 /* landing Page */
 .landing-grid {
-      
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
     text-align: center;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+/* Resume Page */
+.resume-grid {
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -100,6 +139,30 @@
 .mdl-ProgressBar:after {
     background-color: #182848 !important;
     color: white !important;
-    font-weight: bold;
-    opacity: .9;
+}
+
+.mdl-progress > .progressbar {
+    background-color: darkred !important;
+}
+
+
+.mdl-tabs__tab-bar {
+    color: black !important;
+    border-bottom: hidden !important;
+}
+
+.mdl-tabs__tab {
+    color: white !important;
+    border-bottom: hidden !important;
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 1024px) {
+    .material-icons { 
+        visibility: visible;
+        color: white;
+    }
 }

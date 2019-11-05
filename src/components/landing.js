@@ -15,23 +15,9 @@ class Landing extends Component {
 
                         <div className="banner-text">
                             <h1>Jake Sonnier</h1>
-
-                            
-
                             <p>Computer Science Junior</p>
 
                             <div className="social-links">
-                                
-                                {/* Linkedin */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"/>
-                                </a>
-
-                                {/* GitHub */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i class="fa fa-github-square" aria-hidden="true"/>
-                                </a>
-
                             </div>
                         </div>
                     </Cell>

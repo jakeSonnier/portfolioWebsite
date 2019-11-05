@@ -13,7 +13,7 @@ class Projects extends Component {
         if(this.state.activeTab === 0) {
             return(
                 <div className="projects-grid">
-                    
+                
                 {/* React project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover'}}>
@@ -287,11 +287,11 @@ class Projects extends Component {
     render() {
         return(
         <div>
-            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                <Tab>React</Tab>
-                <Tab>C/C++</Tab>
-                <Tab>C# .NET</Tab>
-                <Tab>Java</Tab>
+            <Tabs id="projectsTabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                <Tab>CloudSat 8++</Tab>
+                <Tab>CAPE-3</Tab>
+                <Tab>ESG Grid</Tab>
+                <Tab>Radio Board</Tab>
             </Tabs>
 
                 <Grid>
