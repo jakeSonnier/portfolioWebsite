@@ -19,6 +19,9 @@ body {
 .material-icons {
     visibility: hidden;
 }
+.mdl-layout__drawer-button {
+    visibility: hidden;
+  }
 
 /* Title */
 #title a {
