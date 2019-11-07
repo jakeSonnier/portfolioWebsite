@@ -2,16 +2,33 @@ body {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*h1 {
+    font-family: "Candara"; 
+}
+h2 {
+    font-family: "Candara"; 
+}
+h3 {
+    font-family: "Candara"; 
+}
+h4 {
+    font-family: "Candara"; 
+}
+h5 {
+    font-family: "Candara"; 
+}
+p {
+    font-family: "Candara"; 
+}*/
 
 
 /* Header */
 .header-color {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
 
 
@@ -39,11 +56,6 @@ body {
 
 /* landing Page */
 .landing-grid {
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
     text-align: center;
     top: 0;
     left: 0;
@@ -52,16 +64,18 @@ body {
 }
 
 
-/* Resume Page */
-.resume-grid {
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+
+/* Resume Page */
+.resume-grid p{
+    font-size: large;
 }
 
+.resume-left-col h4{
+    margin: 1px;
+}
 
-/* Resume Page */
 .resume-right-col {
     background: #27221f;
     color: white;
@@ -72,6 +86,38 @@ body {
         margin-top: 1px;
         margin-bottom: 4px;
 }
+
+.resumeButton {
+    text-align: center;
+}
+
+.mdl-button {
+    background: black !important;
+    color: white !important;
+}
+
+
+
+/* About Me Page */
+.aboutme-grid {
+    color: white;
+}
+
+.aboutme-grid h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.aboutme-grid p {
+    font-size: large;
+}
+
+.aboutme-right-col {
+    text-align: center;
+}
+
+
+
+
 
 
 /* Projects Page */
@@ -91,34 +137,23 @@ body {
 
 /* Landing Text */
 .avatar-img {
-    height: 250px;
-    padding-top: 5em;
+    height: 400px;
+    padding-top: 6em;
 }
 
-.banner-text {
-    background-color: black;
-    opacity: .5;
-    width: 55%;
-    margin: auto;
-    border-radius: 5px;
-}
+
 
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
     color: white;
-}
-
-.banner-text hr {
-    border-top: 5px white;
-    width: 50%;
-    margin: auto;
+    margin: 1px;
 }
 
 .banner-text p {
     color: white;
     font-size: 20px;
-    padding: 1em;
+    padding: 1px;
 }
 
 .social-links {

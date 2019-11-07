@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {  Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-
+import {  Tabs, Tab, Grid, Cell } from 'react-mdl';
+//Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton
 
 class Projects extends Component {
     constructor(props) {
@@ -14,65 +14,7 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 
-                {/* React project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover'}}>
-                        React Project #1
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* React project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover'}}>
-                        React Project #2
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* React project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover'}}>
-                        React Project #3
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                    <h1>CloudSat 8</h1>
 
                 </div>
             )
@@ -81,66 +23,8 @@ class Projects extends Component {
         else if(this.state.activeTab === 1) {
             return(
                 <div className="projects-grid">
-                    
-                {/* C/C++ project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wallpapercave.com/wp/wp4009915.jpg) center / cover'}}>
-                        C/C++ Project #1
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
 
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* C/C++ project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wallpapercave.com/wp/wp4009915.jpg) center / cover'}}>
-                        C/C++ Project #2
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* C/C++ project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wallpapercave.com/wp/wp4009915.jpg) center / cover'}}>
-                        C/C++ Project #3
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                    <h1>CAPE-3</h1>
 
                 </div>
             )
@@ -149,67 +33,7 @@ class Projects extends Component {
         else if(this.state.activeTab === 2) {
             return(
                 <div className="projects-grid">
-                    
-                {/* C# project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucMnfVHzNameZUzVlxQk2AdbUGGfyDQo9BTGFv4TsQY4LMdP-) center / cover'}}>
-                        C# Project #1
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* C# project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucMnfVHzNameZUzVlxQk2AdbUGGfyDQo9BTGFv4TsQY4LMdP-) center / cover'}}>
-                        C# Project #2
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* C# project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucMnfVHzNameZUzVlxQk2AdbUGGfyDQo9BTGFv4TsQY4LMdP-) center / cover'}}>
-                        C# Project #3
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
+                    <h1>Experimental Smartphone Grid</h1>
                 </div>
             )
         }
@@ -217,72 +41,14 @@ class Projects extends Component {
         else if(this.state.activeTab === 3) {
             return(
                 <div className="projects-grid">
-                    
-                {/* Java project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsJZIcMtEuRajOLm6zw7ZNAhsSrS6ZywublyyfeSrB8cK_VoLaQ) center / cover'}}>
-                        Java Project #1
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* Java project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsJZIcMtEuRajOLm6zw7ZNAhsSrS6ZywublyyfeSrB8cK_VoLaQ) center / cover'}}>
-                        Java Project #2
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                {/* Java project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsJZIcMtEuRajOLm6zw7ZNAhsSrS6ZywublyyfeSrB8cK_VoLaQ) center / cover'}}>
-                        Java Project #3
-                    </CardTitle>
-                        
-                    <CardText>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                    </CardText>
-
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
+                    <h1>Amateur Radio</h1>
                 </div>
             )
         }
 
     }
+
+    
 
     render() {
         return(
@@ -291,7 +57,7 @@ class Projects extends Component {
                 <Tab>CloudSat 8++</Tab>
                 <Tab>CAPE-3</Tab>
                 <Tab>ESG Grid</Tab>
-                <Tab>Radio Board</Tab>
+                <Tab>Amateur Radio</Tab>
             </Tabs>
 
                 <Grid>
