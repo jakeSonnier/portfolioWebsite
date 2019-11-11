@@ -53,8 +53,7 @@ class Projects extends Component {
     render() {
         return(
         <div>
-            <h1 id="projectPageTitle">My Projects</h1>
-
+            <br/><br/>
             <Tabs id="projectsTabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                 <Tab>CloudSat 8++</Tab>
                 <Tab>CAPE-3</Tab>

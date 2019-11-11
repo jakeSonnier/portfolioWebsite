@@ -1,54 +1,22 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Textfield, Button } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 
 
 class Contact extends Component {
     render() {
         return(
             <Grid className="contact-grid">
-                <Cell col={12}>
+                <Cell className="contact-left-col" col={6}>
+                    <br/><br/>
+                    <h1>Contact on any platform</h1>
+                    <br/>
+                    <h5>I am current seeking an internship in software development. I and extremely excited to work on a team that will challenge me 
+                        to learn new technologies and increase my knowledge.
+                    </h5>
+                </Cell>
 
-                    <div>
+                <Cell className="contact-right-col" col={6}>
 
-                        <h1>Contact Me</h1>
-
-                    </div>
-
-                    <div>
-                        <div>
-                            {/* Name textfield */}
-                            <Textfield
-                                onChange={() => {}}
-                                label="Name..."
-                                style={{width: '400px'}}
-                            />
-                        </div>
-
-                        <div>
-                            {/* Email textfield */}
-                            <Textfield
-                                onChange={() => {}}
-                                label="Email..."
-                                style={{width: '400px'}}
-                            />
-                        </div>
-
-                        <div>
-                            {/* Message textfield */}
-                            <Textfield
-                                onChange={() => {}}
-                                label="Message..."
-                                style={{width: '800px', opacity: '.9'}}
-                                rows={10}
-                            />
-                        </div>
-
-                        <div>
-                            {/* Raised button with ripple */}
-                            <Button raised ripple>Send</Button>
-                        </div>
-
-                    </div>
                 </Cell>
             </Grid>
         )

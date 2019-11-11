@@ -1,7 +1,7 @@
 body {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+    background: linear-gradient(to right, #B3291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
 }
 
 h1 {
@@ -20,8 +20,8 @@ h5 {
     font-family: 'Work Sans', sans-serif !important;
 }
 p {
-    font-family: 'Work Sans', sans-serif !important; 
-    font-size: large !important;
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 25px; 
 }
 a {
     font-family: 'Work Sans', sans-serif !important;
@@ -33,7 +33,7 @@ a {
 .header-color {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    background: linear-gradient(to right, #B3281E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
 
 
@@ -49,7 +49,8 @@ a {
 /* Title */
 #title a {
     text-decoration: none;
-    color: white;
+    color: black;
+    opacity: 55%;
 }
 
 /* Nav Title */
@@ -75,18 +76,28 @@ a {
 
 /* Resume Page */
 .resume-grid p{
-    font-size: large;
+    color: white;
+    font-size: 14px;
+    opacity: 85%; 
 }
 
 .resume-left-col h4{
     margin: 1px;
+    color: white;
+    opacity: 85%; 
+}
+
+.resume-left-col h2{
+    margin: 1px;
+    color: white;
+    opacity: 85%; 
 }
 
 .resume-right-col {
     background: #27221f;
     color: white;
     padding: 2em;
-    opacity: 65%;
+    opacity: 75%;
 }
 
 .experienceBody h6{
@@ -110,15 +121,17 @@ a {
 
 /* About Me Page */
 .aboutme-grid {
-    color: white;
+    color: black;
 }
 
 .aboutme-grid h3 {
     font-family: 'Quicksand', sans-serif;
+    opacity: 85%; 
 }
 
 .aboutme-grid p {
     font-size: large;
+    opacity: 85%; 
 }
 
 .aboutme-right-col {
@@ -145,10 +158,19 @@ a {
 
 /* Contact Page */
 .contact-grid {   
-    text-align: center;
     width: 100%;
     height: 100%;
     margin: auto;
+    color: white;
+    opacity: 65%;
+    font-size: large;
+}
+
+.contact-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
+    opacity: 65%;
 }
 
 

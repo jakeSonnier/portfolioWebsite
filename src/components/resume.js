@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell, Button } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Work from './work';
 import Skill from './skill';
 import Organization from './organization';
 
@@ -18,7 +17,7 @@ class Resume extends Component {
                     </div>
 
                     <h2 style={{paddingTop: '1em', textAlign: 'center'}}>Jake Sonnier</h2>
-                    <hr style={{borderTop: '3px solid #000000'}} />
+                    <hr style={{borderTop: '3px solid #d7d2cc'}} />
                     <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -40,16 +39,16 @@ class Resume extends Component {
                     <h4>GitHub</h4>
                     <p>https://github.com/jakeSonnier</p>
                     <h4>Phone</h4>
-                    <p>(337) - 517 - 2284</p>
+                    <p>(337) 517-2284</p>
                     <h4>Email</h4>
                     <p>jcrsonnier@gmail.com</p>
                     <h4>Address</h4>
                     <p>5322 LA Hwy 343, Maurice LA</p> 
 
-                    <hr style={{borderTop: '3px solid #000000'}} />
+                    <hr style={{borderTop: '3px solid #d7d2cc'}} />
 
                     <div className="resumeButton">
-                    <Button> Download My Resume </Button>
+                    <Button  href="https://docs.google.com/document/d/1oMeVGZ2VuZd3Swty99ysXYvwVUr4Oj08EJrJh_I1pHU/edit?usp=sharing" target="_blank"> Download My Resume </Button>
                     </div>
 
                 </Cell>
@@ -99,31 +98,6 @@ class Resume extends Component {
                         projectName={"CAPE-4"}
                         projectRole={"Radio Systems Team Lead"}
                         projectDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}
-                    />
-
-                    <hr style={{borderTop: '3px solid #d7d2cc'}} />
-
-                    <h2>Work History</h2>
-
-                    <Work
-                        startYear={2013}
-                        endYear={2019}
-                        jobName={"Magdalen Place"}
-                        jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}
-                    />
-
-                    <Work
-                        startYear={2018}
-                        endYear={2018}
-                        jobName={"Rouses Market"}
-                        jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}
-                    />
-
-                    <Work
-                        startYear={2016}
-                        endYear={2017}
-                        jobName={"Sonnier Law Firm"}
-                        jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}
                     />
 
                     <hr style={{borderTop: '3px solid #d7d2cc'}} />
