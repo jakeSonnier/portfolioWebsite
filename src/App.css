@@ -148,6 +148,16 @@ a {
     text-align: center;
 }
 
+.projects-grid img {
+    width: 550px;
+    height: auto;
+    padding: 2em;
+}
+
+.projects-grid {
+    margin: 1em;
+}
+
 #projectPageTitle {
     text-align: center;
     color: black;

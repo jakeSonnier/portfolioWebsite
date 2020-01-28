@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {  Tabs, Tab, Grid, Cell } from 'react-mdl';
 //Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton
 
+import CloudSatPicture from '../CloudSatPic.jpg';
+import CloudSatGUIPicture from '../CloudSatGUI.png';
+
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -14,7 +17,54 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 
-                    <h1>CloudSat 8</h1>
+                <Grid className="CloudSat-Projects-grid">
+                <Cell className="CloudSat-left-col" col={8}>
+                    <div>
+                        
+                        <h3>CloudSat 8 Weather Balloon Firmware</h3>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                            <br/><br/>
+                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
+                            <br/><br/>
+                            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                        </p>
+                        
+                    </div>
+
+                    <div>
+                        
+                        <h3>CloudSat 8 Weather Balloon Ground Station</h3>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                            <br/><br/>
+                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
+                            <br/><br/>
+                            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                        </p>
+                        
+                    </div>
+                </Cell>
+
+                <Cell className="CloudSat-right-col" col={4}>
+                        <img
+                            src={CloudSatPicture}
+                            alt="weather balloon early development"
+                            className="weather-balloon-img"
+                        />
+
+                        <img
+                            src={CloudSatGUIPicture}
+                            alt="weather balloon Ground Station"
+                            className="weather-balloon-Ground-img"
+                        />
+                </Cell>
+
+            </Grid>
 
                 </div>
             )
@@ -59,6 +109,7 @@ class Projects extends Component {
                 <Tab>CAPE-3</Tab>
                 <Tab>ESG Grid</Tab>
                 <Tab>Amateur Radio</Tab>
+                <Tab>Other</Tab>
             </Tabs>
 
                 <Grid>
